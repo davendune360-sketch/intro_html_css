@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Navigation Bar</title>
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Saira:ital,wght@0,100..900;1,100..900&display=swap');
+             
+            *{
+                padding: 0;
+                margin: 0;
+            }
+            body{
+                font-family:"Saira", serif;
+                font-optical-sizing: auto;
+             }
+
+             nav{
+                display: flex;
+                justify-content: center;
+                /* background: #c1c1c1; */
+                border-bottom: 1px solid #000000;
+             }
+
+             .content{
+                /* background: #878785; */
+                width: 70%;
+                justify-content: space-between;
+                display: flex;
+                align-items: center;
+             }
+
+             .logo img{
+                width: 80px;
+                height: 80px;
+             }
+
+             .content ul{
+                display: flex;
+                /* remove bullets */
+                list-style-type: none;
+             }
+
+             .content li{
+                margin-left: 16px;
+                margin-right: 16px;
+             }
+
+             .content a{
+                text-decoration: none;
+                color: #000000;
+             }
+
+
+             .content a:hover{
+                background: #f9f5f5;
+                border-bottom: 1px solid #000000;
+             }
+
+        </style>     
+    </head>
+    <body>
+        <nav>
+            <div class="content">
+                <div class="logo">
+                    <img src="images/icons8-building-50.png" alt="logo">
+                </div>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Product</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Pricing</a></li>
+                    <li><a href="#">Get help</a></li>
+                    <li><a href="#">Team</a></li>
+                </ul>
+            </div>
+        </nav>
+    </body>
+</html>
