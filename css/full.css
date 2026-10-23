@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* font-family: "Bitter", serif; */
+
+:root{
+    --brand-green: #159957;
+    --brand-dark: #1f2d3d;
+    --soft-bg: #ffffff;
+}
+
+body{
+   font-family: "Bitter", serif;
+   color: var(--brand-dark);
+}
+
+.navbar-brand{
+    color: var(--brand-green);
+    font-size: 1.4rem;
+}
+
+#goods{
+    color: var(--brand-dark);
+}
+
+.navbar-brand:hover{
+    color: #0b5530;
+}
+
+.nav-link{
+    color: #536171 !important;
+    font-weight: 900;
+}
+
+.nav-link.active{
+    color: var(--brand-green) !important;
+}
+
+.nav-link:hover{
+    color: var(--brand-green) !important;
+}
+
+.btn-success{
+    background-color: var(--brand-green);
+    border-color: var(--brand-green);
+    border-radius: 30px;
+    transition: all 1s;
+}
+
+.btn-success:hover{
+    background-color: #11ce6f;
+    border-color: #1c6e45;
+}
+
+.hero{
+    background: linear-gradient(to right, #3f4d48, #edf3f1):
+}
+
+.hero .small-heading{
+    color: var(--brand-green);
+    font-size: 0.5rem;
+    font-weight: 800;
+    letter-spacing: 2px;
+}
